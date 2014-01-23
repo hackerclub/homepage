@@ -6,7 +6,6 @@ body {
   background-color:  #101010;
   color:             #FFFFFF;
   font-family:       monospace;
-  text-align:        center;
 }
 
 a:link { color: #FFFFFF; }
@@ -18,24 +17,22 @@ pre {
 }
 
 .ascii-art {
+  text-align: center;
   margin-top: 60px;
   margin-bottom: 60px;
 }
 
-.figlet {
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-
 .news {
+  width: 80ex; /* 80 chars */
+  text-align: center;
   margin-top: 10px;
   margin-bottom: 30px;
 }
 
 .links {
+  width: 80ex;
   margin-top: 20px;
   line-height: 2em;
   text-align: left;
-  width: 600px;
   margin: auto auto;
 }
