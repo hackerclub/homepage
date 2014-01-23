@@ -1,0 +1,41 @@
+/* 
+ * Assumes that reset.css is already sourced on the page.
+ */
+
+body {
+  background-color:  #101010;
+  color:             #FFFFFF;
+  font-family:       monospace;
+  text-align:        center;
+}
+
+a:link { color: #FFFFFF; }
+a:visited { color: #FFFFFF; }
+a:hover { color: #37FF00; }
+
+pre {
+  margin: 0 auto;
+}
+
+.ascii-art {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.figlet {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.news {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.links {
+  margin-top: 20px;
+  line-height: 2em;
+  text-align: left;
+  width: 600px;
+  margin: auto auto;
+}
