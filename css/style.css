@@ -1,5 +1,8 @@
 /* 
  * Assumes that reset.css is already sourced on the page.
+ *
+ * Please use https://upload.wikimedia.org/wikipedia/en/1/15/Xterm_256color_chart.svg
+ * to find appropriate colors for this page :)
  */
 
 body {
@@ -8,31 +11,92 @@ body {
   font-family:       monospace;
 }
 
+/* green links on hover */
 a:link { color: #FFFFFF; }
 a:visited { color: #FFFFFF; }
 a:hover { color: #37FF00; }
+
+/* make unordered lists use the '+' sign as bullets */
+ul {
+  list-style: none;
+  line-height:1ex;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+li:before {
+  content: "+";
+  font-size: 120%;
+  color: #c0c0c0;
+  padding-right: 5px;
+}
 
 pre {
   margin: 0 auto;
 }
 
+
+/* ASCII ART ----------------------------------------------------------------*/
+
 .ascii-art {
-  text-align: center;
   margin-top: 30px;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
+  text-align: center;
+  line-height: 1em;
 }
+
+
+/* TEXT CONTENT -------------------------------------------------------------*/
+
+.readme {
+  margin: 0 auto;
+  width: 54em; /* roughly 80 chars */
+  overflow: hidden; 
+  font-size: 1.1em;
+  text-align: center;
+  line-height: 1.3em;
+}
+
+.info {
+  margin-bottom: 15px;
+  line-height: 1em;
+}
+
+/* NEWS SECTION ----------------*/
 
 .news {
-  width: 80ex; /* 80 chars */
-  text-align: center;
-  margin-top: 10px;
-  margin-bottom: 30px;
+  padding: 1ex 5ex;
+  text-align: left;
+  border-style: none dashed;
+  border-width: 1px;
+  border-color: #444;
 }
 
-.links {
-  width: 80ex;
-  margin-top: 20px;
-  line-height: 2em;
-  text-align: left;
-  margin: auto auto;
+h2 { 
+  color: #5fd7ff; 
+  font-weight: bold;
+  line-height:1em;
+  display: inline;
 }
+
+h3 {
+  color: #5fafff;
+  font-weight: bold;
+  line-height:2em;
+  display: inline;
+}
+
+/* LINKS -----------------------*/
+
+.links {
+  margin-top: 20px;
+  margin-left: 5ex;
+  text-align: left;
+  line-height: 2em;
+}
+
