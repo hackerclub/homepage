@@ -99,3 +99,15 @@ h3 {
   line-height: 2em;
 }
 
+/* BUDS ------------------------*/
+
+.budtitle {
+  color: #5fd7ff; 
+  text-align: center;
+  line-height: 1em;
+}
+
+.budlist {}
+a.budlist {
+  text-decoration: none;
+}
