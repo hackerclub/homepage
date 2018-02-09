@@ -111,3 +111,13 @@ h3 {
 a.budlist {
   text-decoration: none;
 }
+
+/* EXTRAZ ------------------------*/
+
+@keyframes alert {
+  to { color: red; }
+}
+
+.alert {
+  animation: alert 1s steps(2, start) infinite;
+}
